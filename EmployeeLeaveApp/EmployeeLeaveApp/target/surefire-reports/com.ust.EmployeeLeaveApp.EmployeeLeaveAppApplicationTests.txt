@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.ust.EmployeeLeaveApp.EmployeeLeaveAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.335 s <<< FAILURE! - in com.ust.EmployeeLeaveApp.EmployeeLeaveAppApplicationTests
+com.ust.EmployeeLeaveApp.EmployeeLeaveAppApplicationTests  Time elapsed: 0.333 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\Administrator\Downloads\EmployeeLeaveApp\EmployeeLeaveApp\target\test-classes\com\ust\EmployeeLeaveApp\EmployeeLeaveAppApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\Administrator\Downloads\EmployeeLeaveApp\EmployeeLeaveApp\target\test-classes\com\ust\EmployeeLeaveApp\EmployeeLeaveAppApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\Administrator\Downloads\EmployeeLeaveApp\EmployeeLeaveApp\target\test-classes\com\ust\EmployeeLeaveApp\EmployeeLeaveAppApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
